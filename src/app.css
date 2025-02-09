@@ -1,0 +1,9 @@
+.p-dialog-content {
+    height: 100vw;
+    width: 60vw;
+}
+
+.p-dialog .p-dialog-header {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}

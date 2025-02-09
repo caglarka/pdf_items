@@ -1,0 +1,63 @@
+.pdf-viewer-container {
+    height: 100%;
+    overflow: auto;
+}
+
+.pdf-viewer-body {
+    background-color: lightgray;
+    width: auto;
+}
+
+.pdf-document {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.pdf-viewer-dialog-footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+.pdf-viewer-paginator {
+    display: flex;
+}
+
+.pdf-viewer-zoom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdf-viewer-buttons {
+    display: flex;
+}
+
+.pdf-page {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/*Prime React Css Edit*/
+.p-dialog {
+    max-height: 95%;
+}
+
+.p-dialog .p-dialog-footer {
+    padding: 0;
+}
+
+.p-dialog-content {
+    min-width: 100%;
+}
+
+.p-dialog-content {
+    padding: 0;
+}
+
